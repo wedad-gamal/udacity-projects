@@ -1,0 +1,21 @@
+{
+  "name": "weather-journal-app",
+  "version": "1.0.0",
+  "description": "## Overview This project is asynchronous web app that uses Web API and user data to dynamically update the UI.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wedad-gamal/udacity-projects.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wedad-gamal/udacity-projects/issues"
+  },
+  "homepage": "https://github.com/wedad-gamal/udacity-projects#readme"
+}

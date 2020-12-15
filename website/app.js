@@ -51,6 +51,8 @@ const generateProcess = async ()=>{
       }else{
         temperature = data.message;
       }
+      if(userResponse === '')
+        userResponse = "please enter your feelings";
       postData('/addWeatherData',{temperature:temperature , newDate: newDate, userResponse: userResponse})
 
       updateUI()
